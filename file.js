@@ -3,7 +3,7 @@ function TorrentFile(){
 
 //first function
 function numberOfPackets(fileSize){
-    fileSize * 20;
+    fileSize/50;
     return fileSize;
 }
 
