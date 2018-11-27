@@ -36,8 +36,11 @@ function reportHealth(list){
   }
 }
 function update(){
-  Math.random(0, 1);
   for(let i=0; i<list.length; i++){
+    let r=Math.random(0, 1);
+    if(r > seeds[i]){
+      
+    }
   
   
 }
